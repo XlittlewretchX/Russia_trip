@@ -3,5 +3,17 @@
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
-  width: 80%;
+  margin-inline: 148px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    margin-inline: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    margin-inline: 0;
+  }
 }
